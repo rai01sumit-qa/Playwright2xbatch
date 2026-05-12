@@ -41,6 +41,18 @@ This project includes VS Code configuration and keyboard shortcuts for:
 - VS Code editor (recommended)
 - Basic understanding of programming concepts
 
+### Chapter 04 - JavaScript Variables, Scope & Hoisting
+Understanding variable declarations, scope behavior, and hoisting:
+- `09_var_let_const.js` - Comparison of var, let, and const
+- `10_functions.js` - Function definition and calling
+- `11_var_explained.js` - var explained (function-scoped behavior)
+- `12_let_peope_love.js` - let explained (block-scoped behavior)
+- `13_const_explained.js` - const explained and usage
+- `14_var_functionscope.js` - var function scope demonstration
+- `15_let_scope.js` - let block scope demonstration
+- `16_Hoisting.js` - Hoisting concept in JavaScript
+- `17_hoisting_fn.js` - Hoisting behavior inside functions
+
 ## 📝 Note
 
 This is a learning repository. Each chapter builds upon the previous one, so it's recommended to follow the order outlined above.
