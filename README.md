@@ -52,6 +52,13 @@ Understanding variable declarations, scope behavior, and hoisting:
 - `15_let_scope.js` - let block scope demonstration
 - `16_Hoisting.js` - Hoisting concept in JavaScript
 - `17_hoisting_fn.js` - Hoisting behavior inside functions
+- `18_let_hoisting.js` - let hoisting behavior (TDZ)
+- `19_const_hoisting.js` - const hoisting behavior (TDZ)
+- `20_let_hoisting.js` - Additional let hoisting examples
+
+### Chapter 05 - Literals
+Understanding JavaScript literals and data types:
+- `01_types.js` - JavaScript data types and literals
 
 ## 📝 Note
 
