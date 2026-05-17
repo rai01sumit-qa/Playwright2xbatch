@@ -1,4 +1,4 @@
-@@ -0,0 +1,37 @@
+//@@ -0,0 +1,37 @@
 // This is sinle comment this will be ignore 
 // this line will be not executed
 
@@ -35,4 +35,4 @@
 // this          adjasdasdsa
 // this adjasdasdsa
 
-var a = 10
+var a = 10;
