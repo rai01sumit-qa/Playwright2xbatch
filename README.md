@@ -37,9 +37,10 @@ Playwright2xBatch/
 │   └── 05_JS_Basics.js           # var keyword and re-assignment
 │
 ├── chapter_03_Identifiers/
-│   ├── 06_Identifers_Rules.js    # Identifier naming rules
+│   ├── 06_Identifier_Rules.js    # Identifier naming rules
 │   ├── 07_Identifier_Rules_02.js # Extended identifier examples
 │   ├── 08_Comments.js            # Single-line and multi-line comments
+│   ├── js_identifier_rules.js    # Comprehensive identifier rules demo
 │   ├── VS_Code_keyboard_shortcut_mac.md
 │   └── VS_Code_keyboard_shortcut_windows.md
 │
@@ -84,9 +85,10 @@ Playwright2xBatch/
 │   ├── 43_Incre_Decre_Op.js      # Increment / Decrement
 │   └── 44_Null_Op.js             # Nullish coalescing operator
 │
-├── Hoisting_task/
+├── Task/
 │   ├── 01_function_hoisitng.js   # Function hoisting task
-│   └── 02_class_hoisting.js      # Class hoisting task
+│   ├── 02_class_hoisting.js      # Class hoisting task
+│   └── 03_operator.js            # Operator practice tasks (ternary, even/odd, voting eligibility)
 │
 ├── js_identifier_rules.js        # Comprehensive identifier rules demo
 └── README.md                     # This file
@@ -104,7 +106,7 @@ Playwright2xBatch/
 | **Chapter 04** | JS Concepts (Advanced) | `var` vs `let` vs `const`, scope, hoisting |
 | **Chapter 05** | Literals | Data types, strings, template literals, `null` & `undefined` |
 | **Chapter 06** | Operators | Arithmetic, comparison, logical, ternary, `typeof`, increment/decrement, nullish coalescing |
-| **Hoisting Task** | Hoisting Practice | Function and class hoisting hands-on |
+| **Task** | Practice Tasks | Function hoisting, class hoisting, and operator exercises (ternary, even/odd, voting eligibility) |
 | **Extras** | Identifier Rules | Complete demo of valid/invalid identifiers, naming cases (camelCase, PascalCase, snake_case, etc.) |
 
 ---
@@ -125,6 +127,9 @@ Playwright2xBatch/
    node chapter_05_Literal/22_Literal.js
    node chapter_06_Operator/30_Operator.js
    node js_identifier_rules.js
+   node Task/01_function_hoisitng.js
+   node Task/02_class_hoisting.js
+   node Task/03_operator.js
    ```
 
 3. **Verify your setup:**

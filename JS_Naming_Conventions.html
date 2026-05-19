@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Naming Conventions</title>
+    <style>
+        body {
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 11pt;
+            margin: 1in;
+        }
+        h1 {
+            font-size: 16pt;
+            font-weight: bold;
+            margin-bottom: 12pt;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 11pt;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 6pt;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #D9E1F2;
+            font-weight: bold;
+        }
+        .valid-yes {
+            color: #006100;
+            background-color: #C6EFCE;
+        }
+        .valid-no {
+            color: #9C0006;
+            background-color: #FFC7CE;
+        }
+        .example {
+            font-family: "Courier New", Courier, monospace;
+            color: #0563C1;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Naming Conventions</h1>
+    <table>
+        <tr>
+            <th>Case</th>
+            <th>Example</th>
+            <th>Valid in JS?</th>
+        </tr>
+        <tr>
+            <td>camelCase</td>
+            <td class="example">firstName</td>
+            <td class="valid-yes">Yes (standard for variables/functions)</td>
+        </tr>
+        <tr>
+            <td>PascalCase</td>
+            <td class="example">FirstName</td>
+            <td class="valid-yes">Yes (standard for classes/constructors)</td>
+        </tr>
+        <tr>
+            <td>snake_case</td>
+            <td class="example">first_name</td>
+            <td class="valid-yes">Yes (allowed, less common)</td>
+        </tr>
+        <tr>
+            <td>SCREAMING_SNAKE_CASE</td>
+            <td class="example">FIRST_NAME</td>
+            <td class="valid-yes">Yes (for constants)</td>
+        </tr>
+        <tr>
+            <td>kebab-case</td>
+            <td class="example">first-name</td>
+            <td class="valid-no">No (SyntaxError in JS)</td>
+        </tr>
+        <tr>
+            <td>Hungarian Notation</td>
+            <td class="example">strFirstName</td>
+            <td class="valid-yes">Yes (older style, avoid)</td>
+        </tr>
+        <tr>
+            <td>Train-Case</td>
+            <td class="example">First-Name</td>
+            <td class="valid-no">No (used in HTTP headers)</td>
+        </tr>
+    </table>
+</body>
+</html>
