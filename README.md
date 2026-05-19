@@ -56,7 +56,8 @@ Playwright2xBatch/
 │   ├── 17_hoisting_fn.js         # Function hoisting
 │   ├── 18_let_hoisting.js        # let hoisting
 │   ├── 19_const_hoisting.js      # const hoisting
-│   └── 20_let_hoisting.js        # Additional let hoisting
+│   ├── 20_let_hoisting.js        # Additional let hoisting
+│   └── 21_Jr_QA.js               # Junior QA concepts
 │
 ├── chapter_05_Literal/
 │   ├── 22_Literal.js             # JS literals overview
@@ -90,7 +91,6 @@ Playwright2xBatch/
 │   ├── 02_class_hoisting.js      # Class hoisting task
 │   └── 03_operator.js            # Operator practice tasks (ternary, even/odd, voting eligibility)
 │
-├── js_identifier_rules.js        # Comprehensive identifier rules demo
 └── README.md                     # This file
 ```
 
@@ -107,7 +107,6 @@ Playwright2xBatch/
 | **Chapter 05** | Literals | Data types, strings, template literals, `null` & `undefined` |
 | **Chapter 06** | Operators | Arithmetic, comparison, logical, ternary, `typeof`, increment/decrement, nullish coalescing |
 | **Task** | Practice Tasks | Function hoisting, class hoisting, and operator exercises (ternary, even/odd, voting eligibility) |
-| **Extras** | Identifier Rules | Complete demo of valid/invalid identifiers, naming cases (camelCase, PascalCase, snake_case, etc.) |
 
 ---
 
@@ -126,8 +125,7 @@ Playwright2xBatch/
    node chapter_04_JS_concepts/09_var_let_const.js
    node chapter_05_Literal/22_Literal.js
    node chapter_06_Operator/30_Operator.js
-   node js_identifier_rules.js
-   node Task/01_function_hoisitng.js
+node Task/01_function_hoisitng.js
    node Task/02_class_hoisting.js
    node Task/03_operator.js
    ```
