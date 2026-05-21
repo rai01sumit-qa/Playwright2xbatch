@@ -1,3 +1,4 @@
+
 // large number
 
 let a = 10;
@@ -27,6 +28,4 @@ console.log("You are  eligible for voting :", votingEligibility);
 
 const age1 = 36;
 const ageGroup = age1 < 13 ? ("you are a child") : age1 < 20 ? ("you are a teenager") : ("you are an adult");
-console.log("Age group:", ageGroup);   
-
-  
+console.log("Age group:", ageGroup);    

@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Generated/temporary files
+JS_Naming_Conventions.*
+create_doc.js
+
+# Environment variables
+.env
