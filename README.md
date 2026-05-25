@@ -121,6 +121,15 @@ Reading user input in JavaScript:
 - `69_Node_readline.js` - Node readline module
 - `70_prompt_sync.js` - prompt-sync npm package
 
+### Chapter 10 - Tasks
+Hands-on practice exercises covering multiple concepts:
+- `01_function_hoisitng.js` - Function hoisting examples and behavior
+- `02_class_hoisting.js` - Class hoisting and increment operator exercises
+- `03_operator.js` - Ternary operator practice (large number, even/odd, voting eligibility, age group classification)
+- `04_if_else.js` - If/else practice (odd/even, grade calculator, leap year, HTTP status code categorizer)
+- `05_If_else_switch.js` - Real-world if/else and switch cases (HTTP status, user login, bug severity, health reporter, failed login attempts)
+- `06_h.js` - Triangle type checker and FizzBuzz implementation using switch
+
 ## 📝 Note
 
 This is a learning repository. Each chapter builds upon the previous one, so it's recommended to follow the order outlined above.
