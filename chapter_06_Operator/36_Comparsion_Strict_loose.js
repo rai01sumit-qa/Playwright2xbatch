@@ -1,7 +1,5 @@
 // // number == string
-
 // console.log(42 == "42"); // == -> loose compasion
-
 // console.log(42 === "42"); //data type and converted value
 // console.log(42 == "45"); //value different
 

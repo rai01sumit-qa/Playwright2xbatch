@@ -7,6 +7,5 @@
 let x = 10;
 x = 11;
 x = 90;
-let a = "Sumit";
-console.log(a);
+console.log(x);
 
