@@ -11,3 +11,55 @@ console.log(typeof pi);
 console.log(typeof isStudent);
 console.log(typeof nullValue);
 console.log(typeof undefinedValue);
+// no is even or odd number 
+
+let num = 6;
+if (num % 2 === 0) {
+    console.log(num + " is an even number.");
+} else {
+    console.log(num + " is an odd number.");
+}
+
+
+// student grade calculator 
+
+let marks = 45;
+if (marks >= 90) {
+    console.log("Grade you are topper: A");
+} else if (marks >= 80) {
+    console.log("Grade your are good : B");
+}
+else if (marks >= 70) {
+    console.log("Grade you are average : C");
+} else {
+    console.log("Grade you are failed : D");
+}
+
+
+//leap year checker  
+let days = 365;
+if (days % 2 === 0) {
+
+    console.log(days + " is a leap year.");
+
+} else {
+    console.log(days + " is not a leap year.");
+
+
+}
+
+
+//leap year calculator2
+let year = 2020;
+if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+
+    console.log(year + " is a leap year.");
+
+} else {
+    console.log(year + " is not a leap year.");
+
+
+
+
+
+}   

@@ -8,6 +8,7 @@ var ab123 = 34;
 
 var Name = "pramod";
 var name = "Amit";
+
 //var pramod dutta = "hello";
 var pramod_dutta = "hello";
 var pramod$dutta = "hello";
