@@ -1,4 +1,6 @@
 var v = 10;
+
 console.log(v);
 
-v = 12;
+v = 20;
+console.log(v);
