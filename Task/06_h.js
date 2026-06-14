@@ -20,8 +20,7 @@ else {
 
 // fizz buzz 
 
-let num = 1;
-for (num <= 100; num++;) {
+for (let num = 1; num <= 100; num++) {
     switch (true) {
         case (num % 3 === 0 && num % 5 === 0):
             console.log("FizzBuzz");
@@ -32,6 +31,9 @@ for (num <= 100; num++;) {
         case (num % 5 === 0):
             console.log("Buzz");
             break;
+            case (num % 3 ===0 && num %5 ===0):
+                console.log(num +  " Fizzbuzz  ");
+                break   ;
         default:
             console.log(num);
     }

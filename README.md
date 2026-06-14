@@ -289,7 +289,7 @@ Loop constructs for repetition and iteration:
 - `72_For_loop.js` - For loop with <=
 - `73_For_Loop2.js` - Loop boundaries < vs <=
 - `74_IQ.js` - For + if/else
-- `75_For_OF_IN_EACH.js` - While loop retry logic
+- `75_For_OF_IN_EACH.js` - for-of, for-in, forEach patterns
 - `76_While.js` - While loop anatomy
 - `77_Do_While.js` - do-while guaranteed execution
 - `78_Do_While.js` - do-while retry pattern
@@ -324,8 +324,32 @@ Reusable logic blocks and function types:
 - `101_Template_literal.js` - Template literals
 - `102_Fn_Expression.js` - Function expressions
 - `103_Arrow_Fn.js` - Arrow functions (ES6)
+- `104_Arrow_Fn_REAL.js` - Real-world arrow functions
+- `105_IIFE.js` - Immediately Invoked Function Expressions
+- `106_Default_Param_Fn.js` - Default parameters
+- `107_IQ.js` - Function interview questions
+- `108_Rest_Param_Fn.js` - Rest parameters
+- `109_IQ.js` - More function questions
+- `110_Spead_IQ.js` - Spread operator
+- `111_Scope._Fn.js` - Function scope
+- `112_IQ.js` - Scope interview questions
+- `113_Closure.js` - Closures basics
+- `114_Closure.js` - Advanced closures
+- `115_API_REAL_Closure.js` - Real-world closure examples
+- `116_Higher_Order_Fn.js` - Higher-order functions
+- `117_Pure_Fn.js` - Pure functions
 
-### Tasks
+### Chapter 13 - Strings
+String manipulation and methods:
+- `118_Strings.js` - String fundamentals
+- `119_String_Properties.js` - String properties
+- `120_Search_Check_Str.js` - String search methods (includes, startsWith, endsWith, indexOf, lastIndexOf, search)
+- `121_Substring.js` - Substring operations
+- `122_Transform_Str.js` - String transformations
+- `123_SC.js` - String challenges
+- `javascript_stringcheatsheet.md` - Comprehensive string method reference
+
+### Task Folder
 Hands-on practice exercises covering multiple concepts:
 - `01_function_hoisitng.js` - Function hoisting examples and behavior
 - `02_class_hoisting.js` - Class hoisting and increment operator exercises
@@ -337,6 +361,10 @@ Hands-on practice exercises covering multiple concepts:
 - `07_pyramid_reverse.js` - Reverse pyramid pattern (Method 1: countdown loop)
 - `07_pyramid_reverse_method2.js` - Reverse pyramid pattern (Method 2: formula-based)
 - `07_pyramid_reverse_method3.js` - Reverse pyramid pattern (Method 3: while loop)
+- `07_gh.js` - Additional practice exercises
+- `Prac_01.js` - Practice problems
+- `Prac_02_Palindrome.js` - String reverse and palindrome checker (checks if a string reads the same forwards and backwards)
+- `Prac_03_Anangrams.js` - Anagram checker (verifies if two words use the same letters)
 
 ### Utility
 - `js_basic_label_normalizer.js` - Reusable label normalizer for JavaScript QA utilities
