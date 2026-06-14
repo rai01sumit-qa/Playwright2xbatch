@@ -164,6 +164,43 @@ Playwright2xBatch/
 │   ├── 103_Arrow_Fn.js
 │   └── README.md
 │
+├── chapter_14_Objects/
+│   ├── 124_Objects.js
+│   ├── 125_Objects2.js
+│   ├── 126_Objects_Creation.js
+│   ├── 127_Objects_REAL.js
+│   ├── 128_Primitive_Ref.js
+│   ├── 129_Ob_Examples.js
+│   ├── 130_IQ.js
+│   ├── 131_Object_Fn.js
+│   ├── 132_Obj_Decon.js
+│   ├── 133_Spead.js
+│   ├── 134_Objects_GET_SET_Methods.js
+│   ├── 135_IQ
+│   ├── 136_Obj_REAL.js
+│   └── 137_Let_const_obj.js
+│
+├── chapter_15_2D_Array/
+│   ├── 138_2D_Array.js
+│   ├── 139_2d.js
+│   ├── 140_REAL.js
+│   ├── 141_2d_Array_Fn.js
+│   ├── 142_IQ_Right_Pattern_Py.js
+│   └── testdata.csv
+│
+├── chapter_16_Callback/
+│   ├── 143_Callback.js
+│   ├── 144_CB.js
+│   ├── 145_CB_Fn.js
+│   ├── 146_PW_CB.js
+│   ├── 147_JS_CB.js
+│   ├── 148_Sync_CB.js
+│   ├── 149_Async_CB.js
+│   ├── 150_CB_Hell.js
+│   ├── 151_CB_Hell_20_Steps.js
+│   ├── 152_CB_Parameter.js
+│   └── 153_CB_Return.js
+│
 ├── Task/
 │   ├── 01_function_hoisitng.js
 │   ├── 02_class_hoisting.js
@@ -349,6 +386,46 @@ String manipulation and methods:
 - `123_SC.js` - String challenges
 - `javascript_stringcheatsheet.md` - Comprehensive string method reference
 
+### Chapter 14 - Objects
+Working with JavaScript objects and object-oriented concepts:
+- `124_Objects.js` - Object basics and introduction
+- `125_Objects2.js` - Object properties and methods
+- `126_Objects_Creation.js` - Different ways to create objects
+- `127_Objects_REAL.js` - Real-world object examples
+- `128_Primitive_Ref.js` - Primitive vs reference types
+- `129_Ob_Examples.js` - More object examples
+- `130_IQ.js` - Object interview questions
+- `131_Object_Fn.js` - Objects with functions
+- `132_Obj_Decon.js` - Object destructuring
+- `133_Spead.js` - Spread operator with objects
+- `134_Objects_GET_SET_Methods.js` - Getters and setters
+- `135_IQ` - Additional interview questions
+- `136_Obj_REAL.js` - Real-world object scenarios
+- `137_Let_const_obj.js` - let and const with objects
+
+### Chapter 15 - 2D Arrays
+Multi-dimensional arrays and matrix operations:
+- `138_2D_Array.js` - 2D array introduction
+- `139_2d.js` - 2D array basics
+- `140_REAL.js` - Real-world 2D array examples
+- `141_2d_Array_Fn.js` - Functions with 2D arrays
+- `142_IQ_Right_Pattern_Py.js` - Pyramid patterns with 2D arrays
+- `testdata.csv` - Sample CSV test data
+
+### Chapter 16 - Callbacks
+Understanding callback functions and asynchronous programming:
+- `143_Callback.js` - Callback introduction
+- `144_CB.js` - Callback basics
+- `145_CB_Fn.js` - Callback functions
+- `146_PW_CB.js` - Playwright callbacks
+- `147_JS_CB.js` - JavaScript callback patterns
+- `148_Sync_CB.js` - Synchronous callbacks
+- `149_Async_CB.js` - Asynchronous callbacks
+- `150_CB_Hell.js` - Callback hell demonstration
+- `151_CB_Hell_20_Steps.js` - Complex callback hell example
+- `152_CB_Parameter.js` - Callbacks with parameters
+- `153_CB_Return.js` - Callbacks with return values
+
 ### Task Folder
 Hands-on practice exercises covering multiple concepts:
 - `01_function_hoisitng.js` - Function hoisting examples and behavior
@@ -441,6 +518,18 @@ This project includes VS Code configuration and keyboard shortcuts for:
    # Chapter 12
    node chapter_12_Funtions/96_Functions.js
    node chapter_12_Funtions/103_Arrow_Fn.js
+
+   # Chapter 14
+   node chapter_14_Objects/124_Objects.js
+   node chapter_14_Objects/127_Objects_REAL.js
+
+   # Chapter 15
+   node chapter_15_2D_Array/138_2D_Array.js
+   node chapter_15_2D_Array/140_REAL.js
+
+   # Chapter 16
+   node chapter_16_Callback/143_Callback.js
+   node chapter_16_Callback/152_CB_Parameter.js
 
    # Tasks
    node Task/01_function_hoisitng.js
