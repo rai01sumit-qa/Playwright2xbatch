@@ -170,7 +170,11 @@ Playwright2xBatch/
 │   ├── 03_operator.js
 │   ├── 04_if_else.js
 │   ├── 05_If_else_switch.js
-│   └── 06_h.js
+│   ├── 06_h.js
+│   ├── 07_pyramid.js
+│   ├── 07_pyramid_reverse.js
+│   ├── 07_pyramid_reverse_method2.js
+│   └── 07_pyramid_reverse_method3.js
 │
 ├── js_basic_label_normalizer.js
 └── README.md
@@ -329,6 +333,10 @@ Hands-on practice exercises covering multiple concepts:
 - `04_if_else.js` - If/else practice (odd/even, grade calculator, leap year, HTTP status code categorizer)
 - `05_If_else_switch.js` - Real-world if/else and switch cases (HTTP status, user login, bug severity, health reporter, failed login attempts)
 - `06_h.js` - Triangle type checker and FizzBuzz implementation using switch
+- `07_pyramid.js` - Star pyramid patterns (normal and reverse)
+- `07_pyramid_reverse.js` - Reverse pyramid pattern (Method 1: countdown loop)
+- `07_pyramid_reverse_method2.js` - Reverse pyramid pattern (Method 2: formula-based)
+- `07_pyramid_reverse_method3.js` - Reverse pyramid pattern (Method 3: while loop)
 
 ### Utility
 - `js_basic_label_normalizer.js` - Reusable label normalizer for JavaScript QA utilities
@@ -413,6 +421,8 @@ This project includes VS Code configuration and keyboard shortcuts for:
    node Task/04_if_else.js
    node Task/05_If_else_switch.js
    node Task/06_h.js
+   node Task/07_pyramid.js
+   node Task/07_pyramid_reverse.js
 
    # Utility
    node js_basic_label_normalizer.js
